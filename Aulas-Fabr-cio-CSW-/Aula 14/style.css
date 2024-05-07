@@ -1,0 +1,32 @@
+body{
+    background-color: darkred;
+}
+    .Box{
+        background-color: lightskyblue;
+
+        width: 300px;
+        height: 50px;
+
+        outline-style:dashed;
+
+     padding-top: 20px;
+      padding-left: 20px;
+     padding-right: 20px;
+      padding-bottom: 20px;
+
+     margin-top: 25px;
+      margin-right: 25px;
+      margin-left: 25px;
+      margin-bottom: 25px;
+    }
+    
+    .Caixa{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lightskyblue;
+        outline-style: dashed;
+        outline-color: gold;
+       width: 300px;
+       height: 50px;
+       margin: 25px;
+       padding: 20px;
+    }
