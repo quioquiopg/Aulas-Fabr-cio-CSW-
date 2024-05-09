@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+
+#divsimples{
+    background-color: lightcyan;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.divtratada{
+    display: inline-block;
+    background-color: lightcyan;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover{
+    background-color: blue;
+    font-weight: bold;
+}
+
+div > p {
+display: block;
+}
+
+div:hover > p {
+display: none;
+color: green;
+}
