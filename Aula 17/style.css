@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(167, 92, 0);
+}
+h2{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 240px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    display: block;
+}
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid white;
+}
+
+.formulario span{
+    width: 100%;
+    font-size: 1.5em;
+}
