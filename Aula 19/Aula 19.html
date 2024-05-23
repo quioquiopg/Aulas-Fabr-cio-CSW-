@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript &#9760;</title>
+</head>
+<body>
+    <script>
+        document.writeln("Olá mundo!")
+    </script>
+<h1>JavaScript</h1>
+<hr>
+<div id="resposta">
+
+</div>
+
+<div>
+    <input id="nomeUsuario" type="text" size="60">
+    <button onclick="validarUsuario()">Validar</button>
+</div>
+    <script>
+
+        function validarUsuario() {
+            var nomeUsuario = "";
+            nomeUsuario = document.getElementById("nomeUsuario").value;
+            if (nomeUsuario == "Administrador"){
+                window.alert("É o Administrador")
+            }
+            else {
+                window.alert("Não é o administrador, tente novamente!")
+            }
+
+        }
+
+        document.writeln("Olá mundo! segunda mensagem em java &#9760;")
+        /*window.alert("Alerta! Membro novo paga comedia pro bonde!")*/
+        /*Código abaixo diz pro script procurar o comando com id resposta e se eu botar strong ele
+        faz meu código correspondente ficar em negrito(sim posso usar comandos html no java)*/
+        document.getElementById("resposta").innerHTML = "Ola mundo usando <strong> getElementById </strong>"
+
+        /*Entrada*/
+        var botaoresposta = window.prompt("Digite seu nome:")
+        /*window.confirm("Você está gostando de javascript 💀?")*/
+        document.writeln("<br>Bem vindo! Oficer " + botaoresposta)
+    </script>
+</body>
+</html>
