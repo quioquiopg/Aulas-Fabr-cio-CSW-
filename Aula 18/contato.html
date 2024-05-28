@@ -25,8 +25,8 @@
                     <input id="usuario" type="email">
                     <span>Senha</span>
                     <input id="senha" type="password">
-                    <button validar()>Enviar</button>
-                    <button>Cancelar</button>
+                    <button onclick="validar()">Enviar</button>
+                    <button onclick="cancelar()">Cancelar</button>
                 </div>
         </section>
     </header>
@@ -35,16 +35,21 @@
     const adm = "adm@uvv.br"
     const psw = "admin123"
 
-    funcion validar() {
-        let usuario = document.getElementById("usuario").value
-        let senha = document.getElementById("senha").value
+    function validar() {
+        var usuario = "";
+        var senha = "";
+        usuario = document.getElementById("usuario").value;
+        senha = document.getElementById("senha").value;
         if (usuario == adm && senha == psw) {
             window.alert("Usuário logado!")
         }
-        else
-        {
+        else{
             window.alert("Usuário inválido. Tente novamente!")
         }
+    }
+
+    function cancelar() {
+        window.open("index.html","_self");
     }
 </script>
 </html>
