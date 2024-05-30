@@ -7,14 +7,15 @@
 </head>
 <body>
 <h2>Calculadora de idade</h2>
+<div></div>
 <span>Dia</span>
 <input type="datetime" id="dia" size="2">
 <span>Mês</span>
-<select id="mes">
-    <option>Janeiro</option>
-    <option>Fevereiro</option>
-    <option>Março</option>
-    <option>Abril</option>
+<select id="mes" name="mes">
+    <option value="01">Janeiro</option>
+    <option value="02">Fevereiro</option>
+    <option value="03">Março</option>
+    <option value="03">Abril</option>
     <option>Maio</option>
     <option>Junho</option>
     <option>Julho</option>
@@ -27,16 +28,8 @@
 <span>Ano</span>
 <input type="datetime" id="ano" size="2">
 <button onclick="teste()">Calcular Idade</button>
+
 <script>
- function teste() {
-    var dia = "";
-    dia = document.getElementById("Dia").value;
-    if (dia > 0){
-        window.alert("Dia digitado é inválido")
-    }
-    else {
-        document.writein("Sla")
-    }
 
 </script>
 
