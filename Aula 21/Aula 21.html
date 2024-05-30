@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascripito</title>
+</head>
+<body>
+<h2>Calculadora de idade</h2>
+<span>Dia</span>
+<input type="datetime" id="dia" size="2">
+<span>Mês</span>
+<select id="mes">
+    <option>Janeiro</option>
+    <option>Fevereiro</option>
+    <option>Março</option>
+    <option>Abril</option>
+    <option>Maio</option>
+    <option>Junho</option>
+    <option>Julho</option>
+    <option>Agosto</option>
+    <option>Setembro</option>
+    <option>Outubro</option>
+    <option>Novembro</option>
+    <option>Dezembro</option>
+</select>
+<span>Ano</span>
+<input type="datetime" id="ano" size="2">
+<button onclick="teste()">Calcular Idade</button>
+<script>
+ function teste() {
+    var dia = "";
+    dia = document.getElementById("Dia").value;
+    if (dia > 0){
+        window.alert("Dia digitado é inválido")
+    }
+    else {
+        document.writein("Sla")
+    }
+
+</script>
+
+</body>
+</html>
